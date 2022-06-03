@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.page-header{
+    width: 100%;
+    background-color: #1F2937;
+    height: 380px;
+}
+
+.logo-menu{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-items: center;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-top: 16px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    margin-left: 12px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.menu-links{
+    display: flex;
+   
+}
+
+.ad{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 60%;
+    /* padding-left: 40px; */
+}
+
+.ad p{
+    width: 50%;
+    color: #E5E7EB;
+}
+
+.ad >.left-ad{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 225px;
+    width: 60%;
+}
+
+.ad>.right-ad {
+    width: 30%;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    margin-left: -150px;
+    border: none;
+    
+}
+
+button{
+    width: 100px;
+    background-color: #3882F6;
+    padding: 8px 4px;
+    border: none;
+    border-radius: 3px;
+    color: #F9FAF8;
+    margin-top: 8px;
+}
+
+button:hover{
+    opacity: 0.4;
+}
+
+p.great{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.cards-section >h4{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+    margin: 8px auto;
+}
+
+/* .cards-section{
+    display: flex;
+    flex-direction: column;
+} */
+
+.cards{
+    width: 100%;
+    /* background-color: red;  */
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card{
+    margin-left: 8px;
+    border-radius: 8px;
+    width: 12rem;
+    height: 9rem;
+    color: #E5E7EB;
+    font-size: 18px;
+    border: 1px solid #3882F6;
+}
+
+.card:hover{
+    opacity: 0.4;
+}
+
+.card-span>span{
+    width: 4rem;
+    text-align: center;
+    color: #1F2937;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+
+.adquote{
+    background-color: #E5E7EB;
+    text-align: center;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.adquote >p{
+    width: 50%;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: lighter;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.adquote >span{
+    font-weight: bold;
+    color: #1F2937;
+    margin-left: 40px !important;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    width: 80%;
+    height: 120px;
+    margin: 40px auto;
+    border-radius: 12px;
+    color: #E5E7EB;;
+}
+
+footer > button{
+    border: 1px solid #E5E7EB;
+    margin-left: 40px;
+}
+
+.card > img{
+    width: 100%;
+}
+
